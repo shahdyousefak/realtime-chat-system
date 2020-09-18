@@ -1,0 +1,43 @@
+*{/*from default divs*/
+	padding:0;
+	margin:0px;
+}
+h1{
+	text-align: center;
+}
+
+#wrapper{
+	width:100%;
+	margin:10px auto;
+	background-color: #f1f1f1;
+	padding:20px;
+}
+.chat_wrapper{
+	width:70%;
+	margin:10px auto;
+	background-color: white;
+}
+#chat{
+	min-height:500px;
+	height:500px;
+	overflow:auto;
+	border:1px solid #b3b3b3;
+	padding:10px;
+	height:500px;
+	
+}
+.textarea{
+	width:97.5%;
+	border:1px solid #b3b3b3;
+	outline:none;
+	padding:10px;
+	margin-top: 10px;
+}
+
+.single-message{
+	padding:5px 0px 5px 0px;
+	border-bottom:1px solid #b3b3b3;
+}
+.single-message span{
+	float:right;
+}
